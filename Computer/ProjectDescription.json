@@ -1,0 +1,160 @@
+{
+  "ProjectName": "Computer",
+  "DLSVersion_LastSaved": "2.1.6",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "CreationTime": "2025-11-10T19:47:19.456+05:30",
+  "LastSaveTime": "2025-11-17T23:21:58.122+05:30",
+  "Prefs_MainPinNamesDisplayMode": 0,
+  "Prefs_ChipPinNamesDisplayMode": 2,
+  "Prefs_GridDisplayMode": 0,
+  "Prefs_Snapping": 2,
+  "Prefs_StraightWires": 1,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 400,
+  "Prefs_SimStepsPerClockTick": 100,
+  "AllCustomChipNames":[
+    "AND",
+    "NOT",
+    "OR",
+    "XOR",
+    "NOR",
+    "XNOR",
+    "Half Adder",
+    "Full Adder",
+    "4bit-Adder",
+    "4bit-Compliment",
+    "ALU",
+    "test",
+    "SR-Latch",
+    "D-Latch",
+    "Async-4bit-Register",
+    "tests",
+    "D-FlipFlop",
+    "2-1Mux",
+    "1-Bit-Register",
+    "4-bit-Register"
+  ],
+  "StarredList":[
+    {
+      "Name":"IN/OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"NAND",
+      "IsCollection":false
+    },
+    {
+      "Name":"AND",
+      "IsCollection":false
+    },
+    {
+      "Name":"NOT",
+      "IsCollection":false
+    },
+    {
+      "Name":"OR",
+      "IsCollection":false
+    },
+    {
+      "Name":"XOR",
+      "IsCollection":false
+    },
+    {
+      "Name":"CLOCK",
+      "IsCollection":false
+    },
+    {
+      "Name":"Full Adder",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit-Adder",
+      "IsCollection":false
+    },
+    {
+      "Name":"ALU",
+      "IsCollection":false
+    },
+    {
+      "Name":"NOR",
+      "IsCollection":false
+    },
+    {
+      "Name":"SR-Latch",
+      "IsCollection":false
+    },
+    {
+      "Name":"D-Latch",
+      "IsCollection":false
+    },
+    {
+      "Name":"1-4BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-1BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"Async-4bit-Register",
+      "IsCollection":false
+    },
+    {
+      "Name":"tests",
+      "IsCollection":false
+    },
+    {
+      "Name":"D-FlipFlop",
+      "IsCollection":false
+    },
+    {
+      "Name":"2-1Mux",
+      "IsCollection":false
+    },
+    {
+      "Name":"1-Bit-Register",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-bit-Register",
+      "IsCollection":false
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["NAND","CLOCK","PULSE","KEY","3-STATE BUFFER"],
+      "IsToggledOpen":true,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
+      "IsToggledOpen":false,
+      "Name":"IN/OUT"
+    },
+    {
+      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
+      "IsToggledOpen":false,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8"],
+      "IsToggledOpen":false,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED"],
+      "IsToggledOpen":true,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["ROM 256×16"],
+      "IsToggledOpen":true,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["BUZZER","AND","NOT","OR","XOR","NOR","XNOR","Half Adder","Full Adder","4bit-Adder","4bit-Compliment","ALU","test","SR-Latch","D-Latch","Async-4bit-Register","tests","D-FlipFlop","2-1Mux","1-Bit-Register","4-bit-Register"],
+      "IsToggledOpen":false,
+      "Name":"OTHER"
+    }
+  ]
+}
